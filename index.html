@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Shop-project</title>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -17,25 +17,47 @@
             <div class="row">
                 <div class="col-md-3">
                     <div class="logo">
+                        <a href="">
                         <img src="images/logo.png" alt="">
+                        </a>
                     </div>
                 </div>
                 <div class="col-md-6">
                     <nav>
                         <ul class="menu">
-                            <li><a href="url"> Home </a></li>
-                            <li><a href=""> Products </a></li>
-                            <li><a href=""> Payment 3 </a></li>
-                            <li><a href=""> Shipping </a></li>
+                            <li><a href="Home">Home</a></li>
+                            <li><a href="Products">Products</a>
+                                <ul class="menu2">
+                                    <li><a href="">Product1</a></li>
+                                    <li><a href="">Product2</a></li>
+                                    <li><a href="">Product3</a></li>
+                                    <li><a href="">Product4</a></li>
+                                    <li><a href="">Product5</a></li>
+                                    <li><a href="">Product6</a></li>
+                                    <li><a href="">Product7</a></li>
+                                </ul>
+
+                            </li>
+                            <li><a href="Payment">Payment</a></li>
+                            <li><a href="Shipping1">Shipping</a></li>
                         </ul>
                     </nav>
                 </div>
-                <div class="col-md-3">Cart</div>
-                <form>
-                    <input type="text" class="input-search" placeholder="search">
-                    
-
-                </form>
+                <div class="col-md-3">
+                    <div class="row">
+                        <div class="col-search">
+                            <form action="">
+                                <input type="text" class="input-search" placeholder="search">
+                                <button class="btn-search"></button>
+                             </form>
+                        </div>
+                        <div class="col-cart">
+                            <div class="cart">
+                                <img src="images/cart.png" alt="">
+                                <div class="products-count">4</div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
