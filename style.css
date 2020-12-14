@@ -152,7 +152,67 @@ form {
 .main {
     margin-top: 400px;
 }
+.check-block {
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+h4 {
+    margin-left: 0;
+    color: white;
+    font-size: 21px;
+    font-weight: bold;
+   }
+.checkbox {
+       margin-top: 20px;
+   }
+   
+input[type="checkbox"]  {
+    display: none;
+}
+input[type="checkbox"]+label {
+    display: inline-flex;
+    align-items: center;
+    user-select: none;
+  }
+label:before {
+    content: "";
+    display: block;
+    width: 12px;
+    height: 12px;
+    border: 1px solid white;
+    margin-right: 0.5em;
+    cursor: pointer;
+}
+input[type="checkbox"]:checked + label:before {
+    background-color: white;
+}
+label {
+    color: white;
+    font-size: 21px;
+    }
+.show {
+    margin-top: 30px;
+    }
+.show a {
+    color: white;
+    text-align: left;
+    line-height: 25px;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 10px;
+}
+.submit {
+    height: 50px;
+    width: 210px;
+    margin-left: 10px;
+    background-color: #2c71b8;
+    color: white;
+    border: 1px solid white;
+    margin-top: 20px;
+    font-size: 20px;
+}
 .breadcrumps {
+    margin-top: 30px;
     margin-left: -10px;
 }
 .breadcrumps > li {
@@ -272,6 +332,7 @@ h3 {
     color: white;
     border: 1px solid white;
     margin-top: 20px;
+    font-size: 20px;
 }
 .more:hover {
     background-color:  #568dc6;
@@ -282,6 +343,7 @@ h3 {
     margin-left: 30px;
     background-color: #2c71b8;
     color: white;
+    font-size: 20px;
     border: 1px solid white;
     margin-top: 20px;
     background-image: url(images/wcart.png);
@@ -292,4 +354,20 @@ h3 {
 .add:hover {
     background-color:  #568dc6;
 }
-    
+.load {
+    margin-bottom: 60px;
+}
+.load a {
+    color: white;
+    text-align: center;
+    line-height: 25px;
+    text-decoration: none;
+    font-size: 30px;
+    margin-left: 320px;
+} 
+.footer {
+    padding: 25px 0;
+    background-color: rgba(255, 255, 255, 0.75);
+    color: #2c71b8;
+    text-align: center;
+}   
